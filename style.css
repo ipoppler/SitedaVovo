@@ -1,0 +1,348 @@
+body {
+  background-color: #ebf2fa;
+}
+h1 {
+  color: #780000;
+  font-family: h1fonte, Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin: -20px;
+}
+h2 {
+  color: #0077b6;
+  font-family: h2fonte, Arial, Helvetica, sans-serif;
+}
+h3 {
+  color: #780000;
+  font-family: h2fonte, Arial, Helvetica, sans-serif;
+}
+p,
+ol,
+ul,
+table, 
+a {
+  color: #000000;
+  font-family: pfonte, Arial, Helvetica, sans-serif;
+}
+p {
+  margin: 8px;
+}
+@font-face {
+  font-family: h1fonte;
+  src: url(fontes/super_mindset/Super\ Mindset.ttf);
+}
+
+@font-face {
+  font-family: h2fonte;
+  src: url(fontes/made_tommy_soft/MADE\ Tommy\ Soft\ Medium\ PERSONAL\ USE.otf);
+}
+
+@font-face {
+  font-family: pfonte;
+  src: url(fontes/tt_interphases_pro/TT\ Interphases\ Pro\ Trial\ Medium.ttf);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #57abd8;
+  padding: 20px;
+
+  position: relative;
+}
+.spiderman{
+    width: 100px;
+    height: auto;
+
+    position: absolute;
+    left: 300px;
+}
+
+.header-texto{
+    text-align: center;
+}
+
+button {
+  background-color: #0077b6;
+  font-family: h2fonte, Arial, Helvetica, sans-serif;
+  width: 150px;
+  height: 30px;
+  color: #1a2341;
+  font-size: 16px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+button:hover {
+  color: aliceblue;
+}
+.destaquereceitas {
+  text-align: center;
+  background-color: #851818da;
+  color: #57abd8;
+}
+
+.preparocake {
+  width: 700px;
+}
+.ingredientescake{
+    max-width: 500px;
+    align-content: middle;
+    padding-top: 89px;
+}
+table {
+  width: 50%;
+  border-radius: 15px;
+  background: rgb(206, 218, 255);
+  border-radius: 12px;
+}
+
+th {
+  background: #b23a48;
+  color: white;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+footer {
+  background-color: #b52424;
+  color: white;
+  position: relative;
+  border-top: 5px solid #57abd8;
+}
+
+footer a {
+  color: white;
+}
+footer p{
+    color: white;
+}
+footer a:hover {
+  color: #57abd8;
+}
+
+.bolobb{
+    width: 400px;
+    border-radius: 20px;
+    display: block;
+}
+.imglasanha{
+    width: 400px;
+    border-radius: 15px;
+}
+.cakecontainer{
+    display: flex;
+    align-items: flex-start;
+    gap: 100px; 
+    background-color: #dddddd;
+    padding-left: 20px;
+}
+.cakechocolate{
+    padding-bottom: 30px;
+}
+.cakecont2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+
+  background-color: #92caffda;
+  padding: 10px;
+  border: 5px dashed #1a2341;
+
+  position: relative;
+}
+
+.tabelacake table {
+  width: 100%;
+}
+.preparolasanha {
+  width: 700px;
+}
+
+.tabelacake {
+  width: 750px;
+  padding-top: 0px;
+  min-width: 300px;
+}
+.lasanhacontainer{
+    display: flex;
+    align-items: flex-start;
+    gap: 100px; 
+    background-color: #dddddd;
+    padding-left: 20px;
+}
+.lasanhacont2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+
+  background-color: #92caffda;
+  padding: 10px;
+  border: 5px dashed #1a2341;
+
+  position: relative;
+}
+.tabelalasanha {
+  width: 750px;
+  padding-top: 0px;
+  min-width: 300px;
+
+}
+.tabelalasanha table {
+  width: 100%;
+}
+.lasanha{
+    padding-bottom: 30px;
+}
+.lasanhacontainer{
+    display: flex;
+    align-items: flex-start;
+    gap: 100px; 
+    background-color: #dddddd;
+    padding-left: 20px;
+}
+.maospider{
+    width: 220px;
+    height: auto;
+    align-self: center;
+}
+.spider2 {
+  position: absolute;
+
+  width: 400px;
+  height: auto;
+
+  right: 100px;
+  bottom: 100px;
+}
+.spider3 {
+  position: absolute;
+
+  width: 400px;
+  height: auto;
+
+  right: 100px;
+  bottom: 100px;
+}
+.facebook,.pinterest{
+    width: 35px;
+}
+.facebook{
+    background-color: #9fcde6;
+    border-radius: 0px;
+}
+.instagram{
+    background-color: #9fcde6;
+    border-radius: 11px;
+    width: 37px;
+}
+.pinterest{
+    background-color: #9fcde6;
+    border-radius: 50px;
+}
+.verreceitas{
+  font-family: h1fonte, Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 28px;
+  transition: 0.3s;
+  
+}
+.spiderteia{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+}
+.footer-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid #57abd8;
+  border-radius: 10px;
+  font-family: pfonte, Arial, sans-serif;
+}
+
+input[type="submit"] {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: h2fonte, Arial, sans-serif;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #780000;
+}
+.comentarios{
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+.redes{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.verreceitas:hover {
+  color: #9fcde6;
+}
+@media (max-width: 1200px) {
+
+  .cakecontainer,
+  .lasanhacontainer,
+  .cakecont2,
+  .lasanhacont2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .preparocake,
+  .preparolasanha,
+  .ingredientescake,
+  .ingredienteslasanha,
+  .tabelacake,
+  .tabelalasanha {
+    width: 90%;
+    max-width: 900px;
+  }
+
+  .bolobb,
+  .imglasanha {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .spider2,
+  .spider3 {
+    display: none;
+  }
+
+  .spiderman {
+    left: 7px;
+    width: 80px;
+  }
+
+  .spiderteia {
+    display: none;
+  }
+
+  input[type="text"] {
+    width: 90%;
+    max-width: 500px;
+  }
+}
